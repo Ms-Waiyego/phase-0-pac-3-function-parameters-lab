@@ -8,7 +8,6 @@ function introductionWithLanguage(name, language) {
 }
 introductionWithLanguage(`Aki` `Ember.js`)
    
-
 function introductionWithLanguageOptional(name = "User", language = "JavaScript") {
    return (`Hi, my name is ${name} and I am learning to program in ${language}.`);
 }
